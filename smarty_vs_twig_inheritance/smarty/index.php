@@ -2,7 +2,8 @@
 header('content-type: text/plain; charset=utf-8');
 $data = json_decode(file_get_contents('data.json'), true);
 
-require('smarty/Smarty.class.php');
+require('vendor/autoload.php');
+
 $smarty = new Smarty();
 $smarty->compile_check = false;
 

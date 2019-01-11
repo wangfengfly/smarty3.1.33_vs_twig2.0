@@ -2,8 +2,8 @@
 header('content-type: text/plain; charset=utf-8');
 $data = json_decode(file_get_contents('data.json'), true);
 
-require('twig/Autoloader.php');
-Twig_Autoloader::register();
+require('vendor/autoload.php');
+
 $loader = new Twig_Loader_Filesystem('templates');
 $twig = new Twig_Environment($loader, array(
 	'cache' => 'templates_c',
