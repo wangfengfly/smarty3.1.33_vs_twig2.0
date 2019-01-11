@@ -1,4 +1,4 @@
-# smarty3.1.33_vs_twig2.0
+# latest smarty vs latest twig performance benchmark comparision.  
 php 7.1.16, smarty 3.1.33和twig 2.0的性能对比
 
 # 性能对比分析结果请见下面的链接：  
